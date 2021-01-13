@@ -14,15 +14,6 @@ html {
     
 }
 
-p{
-    color: var(--text-color);
-    font: normal 500 16px/ 25px var(--roboto);
-}
-
-p.para{
-    color: var(--text-color);
-    font: normal 500 16px/ 25px var(--roboto);
-}
 
 .header_area .main-menu .navbar .navbar-brand{
     padding: 0 2rem 0 5rem;
@@ -103,7 +94,7 @@ p.para{
 
 .site-main .about-area .about-title h2 > span{
     display: block;
-    font: normal bold 49px/ 60px var(--roboto);
+    font: normal bold 49px/ 60px Roboto;
     letter-spacing: 15px;
 }
 
@@ -190,13 +181,13 @@ p.para{
 }
 
 .site-main .brand-area .experience-area .years-area .years{
-    font: normal bold 84px/40px var(--roboto);
+    font: normal bold 84px/40px Roboto;
     color: var(--primary-color2);
     z-index: 2;
 }
 
 .site-main .brand-area .experience-area .years-area h2 > span{
-    font: normal 600 22px/30px var(--roboto);
+    font: normal 600 22px/30px Roboto;
 }
 
 .site-main .brand-area .experience-area .call-area{
@@ -276,8 +267,8 @@ p.para{
 }
 
 li{
-    color: var(--text-color);
-    font: normal 500 16px/ 25px var(--roboto);
+    color: var(#777777);
+    font: normal 500 16px/ 25px roboto;
 }
 
 /* End Project Area */ 
@@ -400,3 +391,8 @@ footer.footer-area .social a:hover > i{
     border-radius: 0.5em;
 }
 /* End Footer */ 
+
+p{
+    color: var(#777777);
+    font: normal 500 16px/ 25px Roboto;
+}
