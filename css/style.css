@@ -392,7 +392,7 @@ footer.footer-area .social a:hover > i{
 }
 /* End Footer */ 
 
-p{
+p.para{
     color: var(#777777);
     font: normal 500 16px/ 25px Roboto;
 }
