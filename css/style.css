@@ -19,6 +19,11 @@ html {
     font: normal 500 16px/ 25px var(--roboto);
 }
 
+.para{
+    color: var(--text-color);
+    font: normal 500 16px/ 25px var(--roboto);
+}
+
 .header_area .main-menu .navbar .navbar-brand{
     padding: 0 2rem 0 5rem;
 }
