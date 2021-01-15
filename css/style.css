@@ -242,11 +242,11 @@ html {
 
 .button-group button:hover{
     text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
-    color: rgb(180, 15, 15);
+    color: var(--primary-color);
 }
 
 .site-main .project-area .button-group .active{
-    background-color: rgb(180, 15, 15);
+    background-color: var(--primary-color);
     color: white;
 }
 
