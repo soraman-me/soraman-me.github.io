@@ -540,7 +540,7 @@ html, body{
    
 
     /* font family variables. */ 
-    --roboto: 'Roboto', cursive;
+    --roboto: 'Roboto';
 } 
 
 @media screen and (max-width: 420px) {
