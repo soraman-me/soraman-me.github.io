@@ -534,6 +534,38 @@ html, body{
     background-color:rgba(7, 7, 7, 1);
 }
 
+
+.modal-dialog.about-dialog{
+    background-color: rgb(255, 255, 255) !important;
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+    border-radius: 5px;
+}
+
+.modal-header.about-header{
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.modal-content{
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px;
+}
+
+
+.modal-body.about-body{
+    background-color: rgb(255, 255, 255) !important;
+    margin-top: 3%;
+}
+
+.modal-footer{
+    border-top: 0px;
+    background-color: var(--modal-backdrop-color);
+}
+
+.modal-backdrop {
+    background-color:rgba(7, 7, 7, 1);
+}
+
 /* CSS Variables */ 
 
 :root{
