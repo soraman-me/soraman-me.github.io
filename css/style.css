@@ -260,6 +260,7 @@ html {
     font: normal 700 25px/12px var(--roboto);
 }
 
+
 .site-main .project-area .grid .our-project .img a:hover img{
     filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
@@ -593,12 +594,3 @@ html, body{
 @media screen and (max-width: 420px) {
     body, p, h1, h2 { font-family:"Helvetica Neue",Helvetica,Arial,sans-serif !important;}
 }
-
-
-@font-face{
-    font-family: "Roboto";
-    src: '../fonts/roboto-regular.woff';
-}
-
-
-
