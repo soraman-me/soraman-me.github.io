@@ -568,7 +568,10 @@ html, body{
     background-color:rgba(7, 7, 7, 1);
 }
 
-
+.error-box{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
 
 /* CSS Variables */ 
 
