@@ -21,7 +21,7 @@
 
 </head>
 
-<!-- Modal -->
+<!-- Modals -->
 <div id="myModal" class="modal fade" role="dialog"  >
     <div class="modal-dialog mw-100 w-100">
   
@@ -47,13 +47,11 @@
   
     </div>
 </div>
-
 <div id="ResumeModal" class="modal fade" role="dialog"  >
     <div class="modal-dialog mw-100 w-75 mh-100 h-100" >
         <embed src="./Resume Sourabh Mane.pdf" frameborder="0" width="100%" height="100%">
     </div>
 </div>
-
 <div id="AboutModal" class="modal fade" role="dialog"  >
     <div class="modal-dialog mw-100 w-75 mh-100 h-100 about-dialog" >
          <!-- Modal content-->
@@ -125,6 +123,7 @@
     </div>
 </div>
 
+<!-- Main -->
 <body>
     <main class="site-main" id="projects" style="padding: 0 4rem 0 4rem;">
         <section>
@@ -142,8 +141,8 @@
             </section>
             <div class="header_area ">
                 <div class="main-menu ">
-                    <nav class="navbar navbar-expand-lg navbar-light justify-content-center">  
-                            <ul class="navbar-nav ">
+                    <nav class="navbar navbar-expand navbar-light justify-content-center">  
+                            <ul class="navbar-nav" style="text-align: center;">
                                 <li class="nav-item active ">
                                     <a class="nav-link" href="#projects">Projects <span class="sr-only">(current)</span></a>
                                 </li>
@@ -161,15 +160,31 @@
 
         <section class="project-area" id="projects">
             <div class="container justify-content-center">
-                <div class="button-group" style="text-align: center;" >
+                <!-- <div class="button-group" style="text-align: center;" >
                     <hr>
                     <button type="button" data-filter="*">All</button>
                     <button type="button" class="active" id="btn1" data-filter=".showcase">showcase</button>
                     <button type="button" data-filter=".research">Research</button>
                     <button type="button" data-filter=".design">Design</button>
+                </div> -->
+                <hr>
+                <div class="row justify-content-center button-group" style="text-align: center;">
+                    <!-- <div class="row justify-content-center" style="text-align: center;"> -->
+                        <div class="col-xs-3 px-4">
+                            <button type="button" data-filter="*">All</button>
+                        </div>
+                        <div class="col-xs-3 px-4">
+                            <button type="button" class="active" id="btn1" data-filter=".showcase">showcase</button>
+                        </div>
+                        <div class="col-xs-3 px-4">
+                            <button type="button" data-filter=".research">Research</button>
+                        </div>
+                        <div class="col-xs-3 px-4">
+                            <button type="button" data-filter=".design">Design</button>
+                        </div>
+                    <!-- </div> -->
                 </div>
                 
-
                 <div class="row grid">
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item showcase research">
                         <div class="our-project">
@@ -179,7 +194,7 @@
                                 </a>
                             </div>
                             <div class="title py-4">
-                                <h4 class="text-uppercase">Discord Forum</h4>
+                                <h4 class="text-uppercase" style="line-height: 1em;">Discord Forum</h4>
                                 <span class="text-secondary">Research<br></span>
                                 <span class="text-secondary">Study of academic collaboration using Discord</span>
                             </div>
@@ -211,7 +226,7 @@
                             <div class="title py-4">
                                 <h4 class="text-uppercase">OK Glacier</h4>
                                 <span class="text-secondary">Illustration<br></span>
-                                <span class="text-secondary">An artwork inspired by the effects of global warming</span>
+                                <span class="text-secondary">An artwork inspired by effects of global warming</span>
                             </div>
                         </div>
                     </div>
