@@ -230,14 +230,16 @@ html {
 }
 .site-main .project-area .button-group{
     text-align: left;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 .site-main .project-area .button-group button{
     background-color: white;
     border: none;
     font: normal 500 16px var(--roboto);
     text-transform: uppercase;
-    margin-top: 65px;
-    margin-bottom: 65px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .button-group button:hover{
