@@ -588,3 +588,12 @@ html, body{
 @media screen and (max-width: 420px) {
     body, p, h1, h2 { font-family:"Helvetica Neue",Helvetica,Arial,sans-serif !important;}
 }
+
+
+@font-face{
+    font-family: "Roboto";
+    src: '../fonts/Roboto/Roboto-Regular.ttf';
+}
+
+
+
