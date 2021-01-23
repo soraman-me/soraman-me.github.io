@@ -91,7 +91,8 @@ html {
 .site-main .about-area .about-title h2 > span{
     display: block;
     font: normal bold 49px/ 60px var(--roboto);
-    letter-spacing: 11px;
+    letter-spacing: 9px;
+    color: #202425;
 }
 
 .site-main .about-area .about-title .paragraph > p{
