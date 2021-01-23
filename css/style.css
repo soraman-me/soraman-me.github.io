@@ -23,11 +23,11 @@ html {
 }
 
 .header_area .main-menu .nav-item .nav-link{
-    font: normal 500 15px/2px var(--roboto);
+    font: normal 600 15px/2px var(--roboto);
     text-transform: uppercase;
     padding: 1.7rem;
     
-    color: var(--title-color);
+    color: #4f4f4f;
 }
 
 .header_area .main-menu .navbar-nav .active a{
@@ -92,7 +92,7 @@ html {
     display: block;
     font: normal bold 49px/ 60px var(--roboto);
     letter-spacing: 9px;
-    color: #202425;
+    color: #202020;
 }
 
 .site-main .about-area .about-title .paragraph > p{
@@ -237,7 +237,7 @@ html {
 .site-main .project-area .button-group button{
     background-color: white;
     border: none;
-    font: normal 500 16px var(--roboto);
+    font: normal 550 16px var(--roboto);
     text-transform: uppercase;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -249,7 +249,7 @@ html {
 }
 
 .site-main .project-area .button-group .active{
-    background-color: var(--primary-color);
+    background-color: #495aff;
     color: white;
 }
 
@@ -598,12 +598,12 @@ html, body{
 /* CSS Variables */ 
 
 :root{
-    --primary-color: #4458dc;
-    --primary-color2: #854fee;
+    --primary-color: #495aff;
+    --primary-color2: #0acffe;
     --title-color: #141313;
     --text-color: #777777;  
     --border-color: #201f1f17;  
-    --gradient-color: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    --gradient-color: linear-gradient(to right, #495aff 80%, #0acffe 100%);
     --shadow-color:  0px 10px 30px rgba(118, 85, 225, 0.3);
     --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
     --modal-backdrop-color: rgba(7, 7, 7, 0.95);
