@@ -358,6 +358,25 @@ li{
 /* End subscribe me */ 
 
 /* Footer Area */ 
+footer{
+    font: normal 100 15px/2px var(--roboto);
+
+    
+    color: var(--title-color);
+
+    padding-bottom: 30px;
+    color: #979797;
+    background-color: #fafafa;
+}
+
+.footer-container{
+    font-size: 1em;
+    padding-top: 10px;
+    padding-right: 128px;
+    margin-left: 128px;
+    
+    
+}
 
 footer.footer-area{
     padding: 5rem 0;
