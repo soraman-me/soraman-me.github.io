@@ -44,7 +44,35 @@ html {
     background-clip: text;
 }
 
+.header_area .navbar .nav-link{
+    font: normal 600 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.5rem;
+    
+    color: #4f4f4f;
+}
 
+.header_area .navbar .nav-link:hover{
+    color: var(--gradient-color);
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.back-button{
+    font: normal 600 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1em;
+    color: #4f4f4f;
+    background-color: white; 
+    padding: left 0; 
+    border-radius: 10px;
+}
+
+.back-button:hover{
+    color: var(--primary-color);
+}
 /* end navigation */ 
 
 /* Banner Area */ 
@@ -401,6 +429,18 @@ footer.footer-area .social a:hover > i{
     padding: 1em 16em 1em 16em;
     border-radius: 15px;
     box-shadow: 1px 6px 17px -2px #B6EB7A;
+}
+
+.container-highlight-text{
+    max-width: 100% !important;
+}
+.highlight-text-frima{
+    color: #17706E;
+    background-color: #B6EB7A;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    font: normal 500 18px/ 2em var(--roboto);
 }
 
 .img-fluid{
