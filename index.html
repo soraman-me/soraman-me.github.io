@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
-
 </head>
 
 <!-- Modals -->
@@ -46,7 +45,20 @@
         <!-- Modal content-->
         <div class="modal-content">
           <div class="modal-header p-0">
-            <button type="button" class="close" data-dismiss="modal" style="color: rgb(252, 252, 252, 100); margin-right: 10%;">&times;</button>              
+              <div class="container">
+                  <div class="row justify-content-end py-2">
+                      <div class="col" style="padding-left: 2%;">
+                        <a href="./Resume Sourabh Mane.pdf" download="Resumae Sourabh Mane"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="rgb(252, 252, 252, 100)" class="bi bi-download" viewBox="0 0 16 16">
+                            <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                            <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                          </svg>
+                        </a>
+                      </div>
+                      <div class="col-lg-2">
+                        <button type="button" class="close" data-dismiss="modal" style="color: rgb(252, 252, 252, 100); margin-right: 2%;">&times;</button>               
+                      </div>
+                  </div>
+              </div>
           </div>
           <div class="modal-body p-0" style="text-align: center; min-height: 90vh; ">
             
@@ -67,9 +79,7 @@
 
 <!-- Main -->
 <body>
-
-    
-    <main class="site-main" style="max-width: 1920px;">
+    <main class="site-main" style="max-width: 1920px;" id="top">
         <section id="home" style="background-image: url(./img/abstract-background.png);">
             <section class="about-area">
                 <div class="container-fluid" >
@@ -233,6 +243,15 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row pt-5 justify-content-end">
+                        <div class="col-lg-1" style="text-align: end;">
+                            <a href="#top">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+                                    <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+                                </svg>
+                            </a>
+                        </div>                        
+                    </div>
                 </div>      
             </section>
         </section>
@@ -270,5 +289,5 @@
         </section>
     </div>
 </footer>
-
+    
 </html>
