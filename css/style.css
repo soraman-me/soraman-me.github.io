@@ -705,13 +705,14 @@ html, body{
 @media screen and (max-width: 900px) {
     .block-effect1 {
         text-align: left;
-        font-size: 1em!important;
+        padding-left: 0px;
+        font-size: 3em!important;
         --td: 0.9s;
     }
     
     .block-effect2 {
         text-align: left;
-        font-size: 3em!important;
+        font-size: 2em!important;
         --td: 1.2s;
         
     }
@@ -729,7 +730,10 @@ html, body{
     --t: calc(var(--td) + var(--d));
   
     color: transparent;
-    padding: 4px;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-left: 0px;
     
     position: relative;
     overflow: hidden;
