@@ -63,7 +63,7 @@ html {
 .back-button{
     font: normal 600 15px/2px var(--roboto);
     text-transform: uppercase;
-    padding: 1em;
+    padding: 0.5em;
     color: #4f4f4f;
     background-color: white; 
     padding: left 0; 
@@ -278,8 +278,9 @@ html {
 }
 
 .site-main .project-area .button-group .active{
-    background-color: #495aff;
-    color: white;
+    border-radius: 2px;
+    background-color: rgb(168, 170, 184);
+    color: rgb(255, 255, 255);
 }
 
 .site-main .project-area .button-group button + button{
@@ -675,3 +676,82 @@ html, body{
 @media screen and (max-width: 420px) {
     body, p, h1, h2 { font-family:"Helvetica Neue",Helvetica,Arial,sans-serif !important;}
 }
+
+/*Title animation*/
+/* block-$ */
+.block-effect1 {
+    font-size: calc(0.3rem + 6vw)!important;
+    --td: 0.9s;
+}
+
+.block-effect2 {
+    font-size: calc(0.2rem + 3vw)!important;
+    --td: 1.2s;
+    
+}
+
+.block-effect3 {
+    font-size: calc(0.1rem + 1vw)!important;
+    --td: 1.2s;
+    
+}
+  
+.block-reveal {
+    --t: calc(var(--td) + var(--d));
+  
+    color: transparent;
+    padding: 4px;
+    
+    position: relative;
+    overflow: hidden;
+  
+    animation: revealBlock 0s var(--t) forwards;
+}
+  
+.block-reveal::after {
+    content: '';
+  
+    width: 0%;
+    height: 100%;
+    padding-bottom: 4px;
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    background-image: var(--gradient-color2);
+    animation: revealingIn var(--td) var(--d) forwards, revealingOut var(--td) var(--t) forwards;
+}
+  
+  
+/* animations */
+@keyframes revealBlock {
+    100% {
+      color: var(--title-color);
+    }
+}
+  
+@keyframes revealingIn {
+  
+    0% {
+      width: 0%;
+    }
+  
+    100% {
+      width: 100%;
+    }
+}
+  
+@keyframes revealingOut {
+  
+    0% {
+      transform: translateX(0);
+    }
+  
+    100% {
+      transform: translateX(100%);
+    }
+  
+}
+  
+  
