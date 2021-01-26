@@ -279,7 +279,7 @@ html {
 
 .site-main .project-area .button-group .active{
     border-radius: 2px;
-    background-color: rgb(168, 170, 184);
+    background-color: #007bff;
     color: rgb(255, 255, 255);
 }
 
@@ -679,22 +679,51 @@ html, body{
 
 /*Title animation*/
 /* block-$ */
-.block-effect1 {
-    font-size: calc(0.3rem + 6vw)!important;
-    --td: 0.9s;
+
+@media screen and (min-width: 901px) {
+    .block-effect1 {
+        text-align: center;
+        font-size: calc(0.3rem + 6vw)!important;
+        --td: 0.9s;
+    }
+    
+    .block-effect2 {
+        text-align: center;
+        font-size: calc(0.2rem + 3vw)!important;
+        --td: 1.2s;
+        
+    }
+    
+    .block-effect3 {
+        text-align: center;
+        font-size: calc(0.2rem + 1vw)!important;
+        --td: 1.2s;
+        
+    }
 }
 
-.block-effect2 {
-    font-size: calc(0.2rem + 3vw)!important;
-    --td: 1.2s;
+@media screen and (max-width: 900px) {
+    .block-effect1 {
+        text-align: left;
+        font-size: 1em!important;
+        --td: 0.9s;
+    }
     
+    .block-effect2 {
+        text-align: left;
+        font-size: 3em!important;
+        --td: 1.2s;
+        
+    }
+    
+    .block-effect3 {
+        text-align: left;
+        font-size: 1em!important;
+        --td: 1.2s;
+        
+    }
 }
 
-.block-effect3 {
-    font-size: calc(0.1rem + 1vw)!important;
-    --td: 1.2s;
-    
-}
   
 .block-reveal {
     --t: calc(var(--td) + var(--d));
