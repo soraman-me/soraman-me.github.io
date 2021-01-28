@@ -11,13 +11,6 @@ html {
 }
 
 
-.header_area .main-menu .navbar .navbar-brand{
-    padding: 0 2rem 0 5rem;
-}
-
-.header_area .main-menu .navbar .back-button{
-    padding: 0 0 0 5rem;
-}
 .header_area .main-menu .navbar{
     padding: 1rem 20rem ;
 }
@@ -63,35 +56,22 @@ html {
 .back-button{
     font: normal 600 15px/2px var(--roboto);
     text-transform: uppercase;
-    padding: 0.5em;
+    padding: 0.3em;
     color: #4f4f4f;
     background-color: white; 
     padding: left 0; 
-    border-radius: 10px;
+    border-radius: 4px;
 }
 
 .back-button:hover{
     background-image: var(--gradient-color2);
     color: white;
 }
-/* end navigation */ 
-
-
-/* Start About Area */ 
 
 .site-main .about-area{
     padding: 8rem 5rem;
 }
 
-
-
-/* End About Area */ 
-
-
-
-
-
-/* Project Area */ 
 
 .site-main .project-area{
     padding: 1rem 0;
@@ -139,21 +119,6 @@ li{
     font: normal 500 16px/ 25px var(--roboto);
 }
 
-/* End Project Area */ 
-
-
-
-
-
-/* End About Me */ 
-
-/* Subscribe me */ 
-
-
-
-/* End subscribe me */ 
-
-/* Footer Area */ 
 footer{
     font: normal 100 15px/2px var(--roboto);
 
@@ -198,12 +163,6 @@ footer{
     border-radius: 0.5em;
 }
 /* End Footer */ 
-
-p.para{
-    color: #777777;
-    font: normal 500 16px/ 25px  var(--roboto);
-}
-
 
 
 
@@ -383,28 +342,28 @@ html, body{
 }
 
 .to-top-button{
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 2%; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: var(--text-color); /* Set a background color */
-    color: rgb(255, 255, 255); /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 2px; /* Some padding */
-    border-radius: 40px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 2%; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: var(--text-color); 
+    color: rgb(255, 255, 255); 
+    cursor: pointer; 
+    padding: 2px; 
+    border-radius: 40px; 
+    font-size: 18px; 
     text-align: center;
 }
 
 .to-top-button:hover{
     color:var(--gradient-color2);
-    background-color: white; /* Add a dark-grey background on hover */
+    background-color: white; 
 }
 
-/* CSS Variables */ 
+
 
 :root{
     --primary-color: #495aff;
@@ -418,7 +377,7 @@ html, body{
     --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
     --modal-backdrop-color: rgba(7, 7, 7, 0.95);
 
-    /* font family variables. */ 
+
     --roboto: 'Roboto';
 } 
 
@@ -426,8 +385,6 @@ html, body{
     body, p, h1, h2 { font-family:"Helvetica Neue",Helvetica,Arial,sans-serif !important;}
 }
 
-/*Title animation*/
-/* block-$ */
 
 @media screen and (min-width: 901px) {
     .block-effect1 {
