@@ -145,13 +145,13 @@
                             <button type="button" data-filter="*">All</button>
                         </div>
                         <div class="col-xs-3 px-4">
-                            <button type="button" class="active" id="btn1" data-filter=".showcase">showcase</button>
+                            <button type="button"  id="btn1" data-filter=".showcase">showcase</button>
                         </div>
                         <div class="col-xs-3 px-4">
                             <button type="button" data-filter=".research">Research</button>
                         </div>
                         <div class="col-xs-3 px-4">
-                            <button type="button" data-filter=".design">Design</button>
+                            <button type="button" class="active" id="btn2" data-filter=".design">Design</button>
                         </div>
                     <!-- </div> -->
                 </div>
@@ -222,7 +222,7 @@
                 </div>
             </div>
         </section>
-
+        
         <section id="about"  style="background-image: url(./img/abstract-background-about.png); background-repeat: no-repeat; max-width: 1920px;">
             <section class="about-area" style="padding-top: 0px;" >
                 <div class="container-fluid" >
@@ -287,6 +287,16 @@
         </section>
     </main>
 
+    <script>
+        function alertFunction() {
+            var element = document.getElementById("btn1");
+            element.classList.add("active");
+
+            var element2 = document.getElementById("btn2");
+            element2.classList.remove("active");
+        }
+        window.onload = alertFunction;
+    </script>
     <script src="./js/jquery.3.4.1.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./vendor/isotope/isotope.min.js"></script>
